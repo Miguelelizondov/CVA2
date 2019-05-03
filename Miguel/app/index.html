@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
     />
-    <title>Introducción al mundo computacional | CVA - Centro Virtual de Aprendizaje</title>
+    <title>Página web de Ejemplo | CVA - Centro Virtual de Aprendizaje</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/favicon.png" />
@@ -33,23 +33,26 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
     <link href="assets/css/animate.min.css" rel="stylesheet" />
     <link href="assets/css/app.css" rel="stylesheet" />
+
+    <!-- mi stylesheet custom -->
+    <link rel="stylesheet" href="./misEstilos/styleCursos.css" />
   </head>
 
   <body class="header-info side-nav-dark">
     <div class="app">
       <div class="layout">
         <!-- Side Nav START -->
-        <div class="side-nav" id="sideNav">
+        <div class="side-nav">
           <div class="side-nav-inner">
             <div class="side-nav-logo">
               <a href="index.html">
                 <div
                   class="logo logo-dark"
-                  style="background-image: url('assets/images/logo/logo.png')"
+                  style="background-image: url('../../assets/images/logo/logo.png')"
                 ></div>
                 <div
                   class="logo logo-white"
-                  style="background-image: url('assets/images/logo/logo.png')"
+                  style="background-image: url('../../assets/images/logo/logo.png'); width: 100%"
                 ></div>
               </a>
               <div class="mobile-toggle side-nav-toggle">
@@ -64,60 +67,44 @@
                   <span class="icon-holder">
                     <i class="ti-home"></i>
                   </span>
-                  <span class="title">Inicio</span>
+                  <span class="title">Bienvenida</span>
                 </a>
               </li>
+              <li class="nav-item active">
+                <a class="mrg-top" href="pages/Introduccion/intro.html">
+                  <span class="icon-holder">
+                    <i class="ei-file-text"></i>
+                  </span>
+                  <span class="title">Introducción</span>
+                </a>
+              </li>
+
               <li class="nav-item dropdown">
-                <a class="dropdown-toggle" href="#">
+                <a class="dropdown-toggle" href="javascript:void(0);">
                   <span class="icon-holder">
                     <i class="ti-view-list-alt"></i>
                   </span>
-                  <span class="title">Presentación</span>
+                  <span class="title">Módulos</span>
                   <span class="arrow">
                     <i class="ti-angle-right"></i>
                   </span>
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="./presentacion/Bienvenida.html">Bienvenida</a>
+                    <a href="pages/Unidades/Unidad1.html">Unidad 1</a>
                   </li>
                   <li>
-                    <a href="./presentacion/Aprender.html"
-                      >¿Cómo voy a aprender?</a
-                    >
+                    <a href="pages/Unidades/Unidad2.html">Unidad 2</a>
                   </li>
                   <li>
-                    <a href="./presentacion/RecorrerCurso.html"
-                      >¿Cómo recorrer el curso?</a
-                    >
+                    <a href="pages/Unidades/Unidad3.html">Unidad 3</a>
+                  </li>
+                  <li>
+                    <a href="pages/Unidades/Unidad4.html">Unidad 4</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle" href="#">
-                  <span class="icon-holder">
-                    <i class="ti-view-list-alt"></i>
-                  </span>
-                  <span class="title">Unidades</span>
-                  <span class="arrow">
-                    <i class="ti-angle-right"></i>
-                  </span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="./Unidades/Unidad1.html">Unidad 1</a>
-                  </li>
-                  <li>
-                    <a href="./Unidades/Unidad2.html">Unidad 2</a>
-                  </li>
-                  <li>
-                    <a href="./Unidades/Unidad3.html">Unidad 3</a>
-                  </li>
-                  <li>
-                    <a href="./Unidades/Unidad4.html">Unidad 4</a>
-                  </li>
-                </ul>
-              </li>
+
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="javascript:void(0);">
                   <span class="icon-holder">
@@ -130,18 +117,34 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="">Glosario</a>
-                  </li>
-                  <li>
-                    <a href="#">Preguntas Frequentes</a>
-                  </li>
-                  <li>
-                    <a href="#">Inicio del curso</a>
-                  </li>
-                  <li>
-                    <a href="#">Salir del Curso</a>
+                    <a href="pages/Ayuda/Glosario.html">Glosario</a>
                   </li>
                 </ul>
+              </li>
+
+              <li class="nav-item active">
+                <a class="mrg-top" href="pages/Politicas/politicas.html">
+                  <span class="icon-holder">
+                    <i class="ei-file-globe"></i>
+                  </span>
+                  <span class="title">Políticas</span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="mrg-top" href="pages/Ayuda/Contacto.html">
+                  <span class="icon-holder">
+                    <i class="ei-email"></i>
+                  </span>
+                  <span class="title">Contáctanos</span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="mrg-top" href="pages/Ayuda/Creditos.html">
+                  <span class="icon-holder">
+                    <i class="ti-info-alt"></i>
+                  </span>
+                  <span class="title">Créditos</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -174,7 +177,53 @@
           <!-- Content Wrapper START -->
           <div class="main-content">
             <div class="container-fluid">
-              <!-- Your content goes here -->
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card">
+                    <div
+                      class="overlay-dark bg"
+                      style="
+                                        background-image: url('imagenes/technology-1095751_1920.jpg');
+                                        background-attachment: fixed;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;"
+                    >
+                      <div class="card-block">
+                        <div class="mrg-top-130">
+                          <div class="tag tag-primary">Educación</div>
+                          <h1>Introducción al mundo de la computación</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-block">
+                      <h1 id="bienvenidaText" class="card-title">
+                        ¡Bienvenido al curso!
+                      </h1>
+                      <p id="p01">
+                        Te damos la más cordial bienvenida a esta nueva
+                        experiencia que ha sido especialmente diseñada para ti.
+                      </p>
+                      <p>
+                        
+                        <strong>Introducción al mundo computacional</strong>, es un curso
+                        sobre el uso de las computadoras, en el aprenderás a conocer una 
+                        computadora, cómo se usa, identificarás los tipos de computadoras 
+                        existentes y a manejarlas de manera eficaz, además distinguirás  
+                        las ventajas que obtendrás al aprender todo esto. Además del   
+                        beneficio del internet, así como las características de la educación 
+                        a distancia y los beneficios de esta.
+                      </p>
+                      <div class="mrg-top-50"></div>
+                      <a
+                        class="button"
+                        href="pages/"
+                        >Ver Ejemplos</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <!-- Content Wrapper END -->
@@ -182,13 +231,39 @@
           <!-- Footer START -->
           <footer class="content-footer">
             <div class="footer">
-              <div class="copyright">
-                <span>Copyright © 2019.</span>
-                <span class="go-right">
-                  <a href="credits.html" class="text-gray mrg-right-15"
-                    >Créditos</a
+              <div class="row mrg-top-10 mrg-btm-30">
+                <div class="col text-center">
+                  <a href="#">
+                    <img src="assets/images/logo/tec-logo.png" />
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-8">
+                  <p>
+                    Se prohíbe la reproducción total o parcial sin previo y
+                    expreso consentimiento por escrito.
+                  </p>
+                  <p>
+                    D.R.© Instituto Tecnológico y de Estudios Superiores de
+                    Monterrey, México, 2019.
+                  </p>
+                </div>
+                <div class="col-4 center align-self-center">
+                  <a
+                    href="http://videolabtec.itesm.mx/aviso-legal"
+                    target="_blank"
+                    >Aviso Legal</a
                   >
-                </span>
+                  <span><b>|</b></span>
+                  <a
+                    href="https://tec.mx/es/avisos-de-privacidad"
+                    target="_blank"
+                    >Aviso de Privacidad</a
+                  >
+                  <span><b>|</b></span>
+                  <a href="../creditos.html">Créditos</a>
+                </div>
               </div>
             </div>
           </footer>
